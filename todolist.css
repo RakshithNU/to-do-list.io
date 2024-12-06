@@ -1,0 +1,73 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-style: italic;
+    text-decoration: underline;
+}
+input{
+    border-radius: 5px 0px 0px 5px;
+}
+button{
+    border-radius: 0px 5px 5px 0px;
+}
+
+input,button{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover{
+    background-color:orange
+}
+input:hover{
+    border: 5px solid rgb(90, 246, 238);
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px,solid #ddd;
+    margin-bottom: 10px;
+}
+
+.complete{
+    text-decoration: line-through;
+    color: #6d6b6b;
+}
+
+.task-button{
+    display: flex;
+    gap: 10px;
+}
+
+.task-button button{
+    padding: 5px 10px;
+    border-radius: 5px 5px 5px 5px;
+
+}
+.task-button button:hover{
+    background-color: red
+}
+.list:hover{
+    border-radius:  rgb(58, 231, 231);
+    }
+
+.complete:hover{
+    background-color: greenyellow;
+}
+
